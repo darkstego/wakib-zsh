@@ -1,0 +1,15 @@
+# Wakib Bindings
+bindkey "^[j" backward-char
+bindkey "^[l" forward-char
+bindkey "^[i" up-line-or-history
+bindkey "^[k" down-line-or-history
+bindkey "^[u" backward-word
+bindkey "^[o" forward-word
+bindkey "^[U" beginning-of-line
+bindkey "^[O" end-of-line
+bindkey "^[d" backward-delete-char
+bindkey "^[f" delete-char
+bindkey "^[e" backward-delete-word
+bindkey "^[r" delete-word
+bindkey "^[E" backward-kill-line
+bindkey "^[R" kill-line
